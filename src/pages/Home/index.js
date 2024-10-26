@@ -1,9 +1,8 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-
 import { Container } from '../../styles/GlobalStyled';
 
-import { Title, Paragrafo, Img } from './styled';
+import { Title, Paragrafo, Img, Button, NavLink } from './styled';
 import { toast } from 'react-toastify';
 import laptop from './../../Images/image.png';
 import axios from '../../service/axios';
@@ -22,6 +21,8 @@ export default function Login() {
         e a sensação de fazer a diferença é extremamente gratificante. Comece
         hoje e faça parte dessa missão de proteger o futuro digital!
       </Paragrafo>
+      <Button>SmartTech</Button>
+      <NavLink to="/couser">Comece a estudar de graça</NavLink>
     </Container>
   );
 }

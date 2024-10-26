@@ -50,5 +50,5 @@ export const Container = styled.section`
   height: 100%;
   overflow-y: scroll;
 
-  background: #ffffff;
+  background-color: orange;
 `;
