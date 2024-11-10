@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { Container } from '../../styles/GlobalStyled';
+import { Section } from '../../styles/GlobalStyled';
 import { Form, Label } from './stlyed';
 
 import * as action from '../../store/modules/example/action';
@@ -11,7 +11,7 @@ export default function Login() {
     dispatch(action.cliacaBotaoRequest());
   }
   return (
-    <Container>
+    <Section>
       <Form action="/" method="Post">
         <Label>
           <input type="email" name="email" placeholder="Email" />
@@ -24,6 +24,6 @@ export default function Login() {
           Enviar
         </button>
       </Form>
-    </Container>
+    </Section>
   );
 }

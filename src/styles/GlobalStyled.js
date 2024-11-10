@@ -44,11 +44,11 @@ body .Toastify .Toastify__toast-container .Toastify__toast--error{
 
 /* Tela Principal */
 
-export const Container = styled.section`
+export const Section = styled.section`
   position: relative;
   width: 100%;
   height: 100%;
   overflow-y: scroll;
 
-  background-color: orange;
+  background-color: #ff8c00;
 `;
