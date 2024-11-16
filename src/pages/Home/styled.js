@@ -29,7 +29,7 @@ export const Paragrafo01 = styled.p`
 export const Img01 = styled.img`
   position: absolute;
   left: 1154px;
-  top: 170px;
+  top: 226px;
   width: 500px;
   height: 300px;
   object-fit: cover;
@@ -162,4 +162,358 @@ export const Paragrafo03 = styled.p`
   align-items: center;
   color: #ffffff;
   text-align: justify;
+`;
+export const Container03 = styled.div`
+  width: 100%;
+  height: 100%;
+`;
+
+export const Title03 = styled.h4`
+  /* Heading 2 → Why Cybrary Cybersecurity Training? */
+
+  position: absolute;
+  width: 764.81px;
+  height: 48.8px;
+  left: 82px;
+  top: 1158px;
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48.8px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.976px;
+  color: #ffffff;
+`;
+export const Rocket = styled.div`
+  /* 64369e04d29c9d9b21942d66_home-icon-background.webp */
+
+  position: absolute;
+  left: 234px;
+  right: 73.28%;
+  top: 1247px;
+  bottom: -43.02%;
+`;
+export const ImgFoguete = styled.img`
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(180deg, #80cc28 40%, #ffffff 87%);
+`;
+export const TitleFoguete = styled.h6`
+  /* Heading 2 → Launch Your Career */
+
+  position: absolute;
+  width: 169px;
+  height: 28px;
+  left: -39px;
+  top: 85px;
+
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24.8px;
+  line-height: 29px;
+  /* or 115% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.496px;
+
+  color: #ffffff;
+`;
+
+export const ParagrafoFoguete = styled.p`
+  /* Comece seu treinamento e jornada em segurança cibernética com Planos de
+  carreira guiados que ensinam conceitos fundamentais relacionados ao
+  real responsabilidades do trabalho. */
+
+  position: absolute;
+  width: 434px;
+  height: 85px;
+  left: -141px;
+  top: 128px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.8);
+`;
+export const Laptop = styled.div`
+  /* 64369e04d29c9d9b21942d66_home-icon-background.webp */
+  position: absolute;
+  left: 785px;
+  right: 73.28%;
+  top: 1244px;
+  bottom: -43.02%;
+`;
+export const ImgLaptop = styled.img`
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(180deg, #80cc28 40%, #ffffff 87%);
+`;
+export const TitleLaptop = styled.h6`
+  /* Heading 2 → Launch Your Career */
+
+  position: absolute;
+  width: 169px;
+  height: 28px;
+  left: -39px;
+  top: 85px;
+
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24.8px;
+  line-height: 29px;
+  /* or 115% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.496px;
+
+  color: #ffffff;
+`;
+
+export const ParagrafoLaptop = styled.p`
+  /* Comece seu treinamento e jornada em segurança cibernética com Planos de
+  carreira guiados que ensinam conceitos fundamentais relacionados ao
+  real responsabilidades do trabalho. */
+
+  position: absolute;
+  width: 434px;
+  height: 85px;
+  left: -141px;
+  top: 128px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.8);
+`;
+
+export const Shield = styled.div`
+  /* 64369e04d29c9d9b21942d66_home-icon-background.webp */
+  position: absolute;
+  left: 1345px;
+  top: 1240px;
+`;
+export const ImgShield = styled.img`
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(180deg, #80cc28 40%, #ffffff 87%);
+`;
+export const TitleShield = styled.h6`
+  /* Heading 2 → Launch Your Career */
+
+  position: absolute;
+  width: 169px;
+  height: 28px;
+  left: -39px;
+  top: 85px;
+
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24.8px;
+  line-height: 29px;
+  /* or 115% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.496px;
+
+  color: #ffffff;
+`;
+
+export const ParagrafoShield = styled.p`
+  /* Comece seu treinamento e jornada em segurança cibernética com Planos de
+  carreira guiados que ensinam conceitos fundamentais relacionados ao
+  real responsabilidades do trabalho. */
+
+  position: absolute;
+  width: 434px;
+  height: 85px;
+  left: -141px;
+  top: 128px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.8);
+`;
+export const Chess = styled.div`
+  /* 64369e04d29c9d9b21942d66_home-icon-background.webp */
+  position: absolute;
+  left: 228px;
+  top: 1478px;
+`;
+export const ImgChess = styled.img`
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(180deg, #80cc28 40%, #ffffff 87%);
+`;
+export const TitleChess = styled.h6`
+  /* Heading 2 → Launch Your Career */
+
+  position: absolute;
+  width: 169px;
+  height: 28px;
+  left: -39px;
+  top: 85px;
+
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24.8px;
+  line-height: 29px;
+  /* or 115% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.496px;
+
+  color: #ffffff;
+`;
+
+export const ParagrafoChess = styled.p`
+  /* Comece seu treinamento e jornada em segurança cibernética com Planos de
+  carreira guiados que ensinam conceitos fundamentais relacionados ao
+  real responsabilidades do trabalho. */
+
+  position: absolute;
+  width: 434px;
+  height: 85px;
+  left: -141px;
+  top: 128px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.8);
+`;
+export const Star = styled.div`
+  /* 64369e04d29c9d9b21942d66_home-icon-background.webp */
+  position: absolute;
+  left: 786px;
+  top: 1478px;
+`;
+export const ImgStar = styled.img`
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(180deg, #80cc28 40%, #ffffff 87%);
+`;
+export const TitleStar = styled.h6`
+  /* Heading 2 → Launch Your Career */
+
+  position: absolute;
+  width: 169px;
+  height: 28px;
+  left: -39px;
+  top: 85px;
+
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24.8px;
+  line-height: 29px;
+  /* or 115% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.496px;
+
+  color: #ffffff;
+`;
+
+export const ParagrafoStar = styled.p`
+  /* Comece seu treinamento e jornada em segurança cibernética com Planos de
+  carreira guiados que ensinam conceitos fundamentais relacionados ao
+  real responsabilidades do trabalho. */
+
+  position: absolute;
+  width: 434px;
+  height: 85px;
+  left: -141px;
+  top: 128px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.8);
+`;
+
+export const Vector = styled.div`
+  /* 64369e04d29c9d9b21942d66_home-icon-background.webp */
+  position: absolute;
+  left: 1350px;
+  top: 1478px;
+`;
+export const ImgVector = styled.img`
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(180deg, #80cc28 40%, #ffffff 87%);
+`;
+export const TitleVector = styled.h6`
+  /* Heading 2 → Launch Your Career */
+
+  position: absolute;
+  width: 169px;
+  height: 28px;
+  left: -39px;
+  top: 85px;
+
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24.8px;
+  line-height: 29px;
+  /* or 115% */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.496px;
+
+  color: #ffffff;
+`;
+
+export const ParagrafoVector = styled.p`
+  /* Comece seu treinamento e jornada em segurança cibernética com Planos de
+  carreira guiados que ensinam conceitos fundamentais relacionados ao
+  real responsabilidades do trabalho. */
+
+  position: absolute;
+  width: 434px;
+  height: 85px;
+  left: -141px;
+  top: 128px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.8);
 `;
