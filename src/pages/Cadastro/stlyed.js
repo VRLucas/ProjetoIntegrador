@@ -61,7 +61,31 @@ export const InputEmail = styled.input`
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  top: 145px;
+`;
+export const InputNome = styled.input`
+  position: absolute;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   top: 43px;
+`;
+export const InputCpf = styled.input`
+  position: absolute;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  top: 94px;
+`;
+export const InputCSenha = styled.input`
+  position: absolute;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  top: 246px;
 `;
 export const InputSenha = styled.input`
   position: absolute;
@@ -69,7 +93,7 @@ export const InputSenha = styled.input`
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  top: 99px;
+  top: 196px;
 `;
 export const Check = styled.input`
   position: absolute;
@@ -86,7 +110,7 @@ export const Button = styled.button`
   color: white;
   padding: 10px 20px;
   border: none;
-  top: 198px;
+  top: 316px;
   border-radius: 50px;
   width: 205px;
 `;

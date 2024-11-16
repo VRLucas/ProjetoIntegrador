@@ -48,7 +48,7 @@ export const Section = styled.section`
   position: relative;
   width: 100%;
   height: 100%;
-  overflow-y: scroll;
+  overflow-y: auto;
 
   background-color: #ff8c00;
 `;

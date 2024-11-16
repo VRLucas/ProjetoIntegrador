@@ -18,7 +18,7 @@ export default function Header() {
       <Link to="/login">
         <FaSignInAlt />
       </Link>
-      <Link to="/user">
+      <Link to="/couser">
         <FaUserAlt />
       </Link>
     </Nav>

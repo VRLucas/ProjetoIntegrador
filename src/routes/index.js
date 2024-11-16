@@ -4,6 +4,7 @@ import MyRoute from './MyRoute';
 import Home from '../pages/Home';
 import Page404 from '../pages/Page404';
 import Login from '../pages/Login';
+import Cadastro from '../pages/Cadastro';
 
 export default function Rotas() {
   return (
@@ -12,6 +13,7 @@ export default function Rotas() {
         <Route exact path="/" element={<Home />} />
       </Route>
       <Route path="/login" element={<Login />} />
+      <Route path="/Cadastro" element={<Cadastro />} />
       <Route path="*" element={<Page404 />} />
     </Routes>
   );

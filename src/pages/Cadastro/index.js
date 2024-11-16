@@ -1,6 +1,5 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { Link } from 'react-router-dom';
 import { Section } from '../../styles/GlobalStyled';
 import {
   Form,
@@ -10,6 +9,9 @@ import {
   Button,
   InputEmail,
   InputSenha,
+  InputNome,
+  InputCpf,
+  InputCSenha,
   Check,
   FormLink,
   CadastroLink,
@@ -25,17 +27,19 @@ export default function Login() {
   }
   return (
     <Section>
-      <Title>Login</Title>
+      <Title>Cadastro</Title>
       <Form onSubmit={handleClick}>
-        <InputEmail type="email" name="nome" placeholder="Email*" />
-        <InputSenha type="password" name="senha" placeholder="Senha*" />
-        <LabelL>Lembrar-me</LabelL>
-        <FormLink to="/">Esqueceu a senha?</FormLink>
-        <Check type="checkbox" name="check" />
-        <Button type="submit">Entrar</Button>
+        <InputNome type="text" name="nome" placeholder="NOME*" />
+        <InputCpf type="text" name="cpf" placeholder="CPF*" />
+        <InputEmail type="email" name="email" placeholder="EMAIL*" />
+        <InputSenha type="password" name="senha" placeholder="SENHA*" />
+        <InputCSenha
+          type="password"
+          name="csenha"
+          placeholder="CONFIMAR SENHA*"
+        />
+        <Button type="submit">Cadastrar</Button>
       </Form>
-      <Cadastro>Ainda não tem uma conta?</Cadastro>
-      <CadastroLink to="/cadastro">Cadastre-se</CadastroLink>
     </Section>
   );
 }
