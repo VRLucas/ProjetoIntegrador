@@ -7,9 +7,10 @@ export default createGlobalStyle`
   padding: 0;
   outline: none;
   box-sizing: border-box;
+
 }
 body {
-  background-color: #fff;
+  background-color: #ff8c00;
   color: ${colors.primaryDarkColor} ;
 }
 html, body, #root {
@@ -45,10 +46,7 @@ body .Toastify .Toastify__toast-container .Toastify__toast--error{
 /* Tela Principal */
 
 export const Section = styled.section`
-  position: relative;
+  position: absolute;
   width: 100%;
   height: 100%;
-  overflow-y: auto;
-
-  background-color: #ff8c00;
 `;

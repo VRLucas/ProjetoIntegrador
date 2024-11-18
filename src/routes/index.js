@@ -5,7 +5,7 @@ import Home from '../pages/Home';
 import Page404 from '../pages/Page404';
 import Login from '../pages/Login';
 import Cadastro from '../pages/Cadastro';
-
+import Couser from '../pages/Couser';
 export default function Rotas() {
   return (
     <Routes>
@@ -14,6 +14,7 @@ export default function Rotas() {
       </Route>
       <Route path="/login" element={<Login />} />
       <Route path="/Cadastro" element={<Cadastro />} />
+      <Route path="/Couser" element={<Couser />} />
       <Route path="*" element={<Page404 />} />
     </Routes>
   );
